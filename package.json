@@ -1,0 +1,28 @@
+{
+    "name": "watermark-app",
+    "version": "0.1",
+    "private": true,
+    "dependencies": {
+        "inquirer": "6.5.0",
+        "jimp": "0.6.4"
+    },
+    "scripts": {},
+    "eslintConfig": {
+        "extends": []
+    },
+    "browserList": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "main": "index.js",
+    "author": "Adam Żukowski <adam.zukowski471@gmail.com>",
+    "license": "MIT"
+}
